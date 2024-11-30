@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallet App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="balance">
+      <span>Total Balance</span>
+      <h1 id="total-balance">$0.00</h1>
+    </div>
+
+    <div class="buttons">
+      <div class="button">Пополнить</div>
+      <div class="button">Вывести</div>
+      <div class="button">Обмен</div>
+      <div class="button">Биржа</div>
+    </div>
+
+    
+
+    <div class="assets">
+      <h3>Assets</h3>
+      <div id="assets-list">
+        <div class="asset">
+          <span>USDT</span>
+          <span id="usdt-price">$0.00</span>
+        </div>
+        <div class="asset">
+          <span>Toncoin</span>
+          <span id="ton-price">$0.00</span>
+        </div>
+        <div class="asset">
+          <span>Bitcoin</span>
+          <span id="btc-price">$0.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

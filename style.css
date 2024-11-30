@@ -1,0 +1,106 @@
+/* Общий стиль */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Черный фон */
+    color: #fff; /* Белый текст */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  /* Баланс */
+  .balance {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .balance h1 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .balance span {
+    color: #bbb; /* Серый текст */
+    font-size: 16px;
+  }
+  
+  /* Кнопки */
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .button {
+    flex: 1;
+    margin: 5px;
+    background: #333; /* Темный фон кнопки */
+    color: #fff; /* Белый текст */
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    background: #444; /* Светлее при наведении */
+  }
+  
+  /* Быстрая отправка */
+  .quick-transfer {
+    margin: 20px 0;
+  }
+  
+  .quick-transfer h3 {
+    margin-bottom: 10px;
+    color: #bbb; /* Серый текст */
+  }
+  
+  .contacts {
+    display: flex;
+    overflow-x: auto; /* Скроллинг по горизонтали */
+  }
+  
+  .contact {
+    background: #333; /* Темный фон */
+    color: #fff; /* Белый текст */
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%; /* Круглая форма */
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Активы */
+  .assets {
+    margin: 20px 0;
+  }
+  
+  .assets h3 {
+    margin-bottom: 10px;
+  }
+  
+  .asset {
+    display: flex;
+    justify-content: space-between;
+    background: #333; /* Темный фон */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+  }
+  
+  .asset span {
+    font-size: 14px;
+  }
